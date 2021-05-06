@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form | Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Jojo's page</h1>
+    </header>
+
+    <nav
+      class="navbar pt-3 pb-3 mb-4 navbar-expand-lg navbar-light justify-content-around"
+    >
+      <div>
+        <img src="https://img.icons8.com/doodle/48/000000/walter-white.png" />
+      </div>
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="index.html">Home </a>
+        <a class="nav-item nav-link" href="resume.html">Resume</a>
+        <a class="nav-item nav-link" href="table.html">Table</a>
+        <a class="nav-item nav-link active" href="form.html">Form</a>
+        <a class="nav-item nav-link" href="Multimedia.html">Multimedia</a>
+      </div>
+    </nav>
+
+    <main>
+      <h2>Contact Us</h2>
+      <p>Please fill in the form below.</p>
+
+      <form
+        action="https://webdevstudents.com/portfolio/submit-form.php"
+        method="post"
+      >
+        <h2>Contact Form</h2>
+        <p>Submit your reports using this form.</p>
+
+        <label for="first_name">*First Name</label>
+        <input type="text" id="first_name" name="first_name" required />
+
+        <label for="last_name">*Last Name</label>
+        <input type="text" id="last_name" name="last_name" required />
+
+        <label for="email">*Email</label>
+        <input type="text" id="email" name="email" required />
+
+        <label for="phone">*Telephone</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="comments">*Your Comment</label>
+        <textarea id="comments" name="comments"></textarea>
+
+        <input type="submit" id="submit" value="Send Report" />
+      </form>
+    </main>
+    <footer>
+      &copy; 2021
+      <a target="__blank" href="https://github.com/happyelsie">GitHub</a>
+    </footer>
+  </body>
+</html>
